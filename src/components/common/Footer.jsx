@@ -1,8 +1,11 @@
+import { Separator } from '../ui';
+
 export const Footer = () => {
   return (
     <>
       <section className="container mx-auto px-4">top footer</section>
-      <div class="border-t border-t-neutral-400"></div>
+
+      <Separator></Separator>
 
       <section className="container mx-auto px-4">bottom footer</section>
     </>
